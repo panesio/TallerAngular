@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/29966wide.jpg);
+}
+
+
+/* Navbar */
+
+.menu {
+    width: 800px;
+    margin: 5px auto 30px auto;
+    background-color: #032C5A;
+    opacity: 1;
+    box-shadow: #376BA6 3px 3px 3px;
+    border-radius: 10px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu li>a {
+    display: block;
+    padding: 15px 20px;
+    color: #AF71E8;
+    font-family: 'Open sans';
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu li a:hover {
+    color: white;
+    transition: all .3s;
+}
+
+.subMenu {
+    position: absolute;
+    background: #032C5A;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+    box-shadow: #376BA6 3px 3px 3px;
+}
+
+.subMenu li a {
+    display: block;
+    font-family: 'Open sans';
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu li:hover .subMenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ulStyle {
+    text-align: center;
+}

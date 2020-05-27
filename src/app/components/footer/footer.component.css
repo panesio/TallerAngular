@@ -1,0 +1,17 @@
+i {
+    color: #fff;
+    padding: 2px 2px 2px 2px;
+    font-size: 200%;
+    display: inline-block;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#derechos {
+    margin-bottom: 2px;
+    text-align: center;
+    color: #fff;
+}

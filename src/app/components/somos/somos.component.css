@@ -1,0 +1,13 @@
+#info {
+    width: 700px;
+    margin: 50px 150px 0 150px;
+    border: #4D4D4D solid 2px;
+    border-radius: 10px;
+    box-shadow: #fff 2px 2px 2px;
+}
+
+#paragraph {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+}
